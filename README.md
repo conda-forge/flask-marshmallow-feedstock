@@ -16,6 +16,18 @@ Hyperlinks fields for HATEOAS-ready APIs. It also (optionally) integrates
 with Flask-SQLAlchemy.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-marshmallow-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-marshmallow-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-marshmallow-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-marshmallow-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-marshmallow-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-marshmallow-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-marshmallow/badges/version.svg)](https://anaconda.org/conda-forge/flask-marshmallow)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-marshmallow/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-marshmallow)
+
 Installing flask-marshmallow
 ============================
 
@@ -36,7 +48,6 @@ It is possible to list all of the versions of `flask-marshmallow` available on y
 ```
 conda search flask-marshmallow --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -72,18 +83,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-marshmallow-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-marshmallow-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-marshmallow-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-marshmallow-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-marshmallow-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-marshmallow-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-marshmallow/badges/version.svg)](https://anaconda.org/conda-forge/flask-marshmallow)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-marshmallow/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-marshmallow)
 
 
 Updating flask-marshmallow-feedstock
