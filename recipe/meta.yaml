@@ -1,6 +1,6 @@
 {% set name = "flask-marshmallow" %}
-{% set version = "0.7.0" %}
-{% set sha256 = "83e2a3bb767a97db63c23a84345430cd3fda51615e7e99131a6b313295f6b7f0" %}
+{% set version = "0.8.0" %}
+{% set sha256 = "d1457a8ee4cda662b121baacb22267774f3f7834e4adafae606b259bfbeb46b9" %}
 
 package:
   name: {{ name|lower }}
@@ -13,16 +13,17 @@ source:
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  noarch: python
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - flask
-    - marshmallow >=1.2.0
+    - marshmallow >=2.0.0
     - six >=1.9.0
 
 test:
@@ -48,3 +49,4 @@ about:
 extra:
   recipe-maintainers:
     - frol
+    - igortg
