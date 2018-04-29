@@ -19,12 +19,15 @@ with Flask-SQLAlchemy.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/flask-marshmallow-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-marshmallow-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/flask-marshmallow-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/flask-marshmallow-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-marshmallow/badges/version.svg)](https://anaconda.org/conda-forge/flask-marshmallow)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-marshmallow/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-marshmallow)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-flask--marshmallow-green.svg)](https://anaconda.org/conda-forge/flask-marshmallow) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/flask-marshmallow.svg)](https://anaconda.org/conda-forge/flask-marshmallow) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/flask-marshmallow.svg)](https://anaconda.org/conda-forge/flask-marshmallow) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/flask-marshmallow.svg)](https://anaconda.org/conda-forge/flask-marshmallow) |
 
 Installing flask-marshmallow
 ============================
