@@ -1,6 +1,6 @@
 {% set name = "flask-marshmallow" %}
-{% set version = "0.10.0" %}
-{% set sha256 = "db6d1d2610a169e616e0aec3aeef67ed31525a85bcc567cabd832261121273f7" %}
+{% set version = "0.10.1" %}
+{% set sha256 = "69e99e3a123393894884a032ae2d11e6bdf4519a505819b66cec7eda32057741" %}
 
 package:
   name: {{ name|lower }}
