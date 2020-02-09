@@ -1,6 +1,6 @@
 {% set name = "flask-marshmallow" %}
-{% set version = "0.10.1" %}
-{% set sha256 = "69e99e3a123393894884a032ae2d11e6bdf4519a505819b66cec7eda32057741" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "01520ef1851ccb64d4ffb33196cddff895cc1302ae1585bff1abf58684a8111a" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
