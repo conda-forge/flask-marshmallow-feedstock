@@ -5,7 +5,7 @@ Home: https://github.com/marshmallow-code/flask-marshmallow
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Flask + marshmallow for beautiful APIs
 
