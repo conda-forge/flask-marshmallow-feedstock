@@ -17,11 +17,10 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
-    - flit-core
   host:
     - python
     - pip
+    - flit-core
   run:
     - python
     - flask
