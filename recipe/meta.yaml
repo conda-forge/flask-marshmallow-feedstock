@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -23,10 +23,8 @@ requirements:
     - flit-core
   run:
     - python >=3.8
-    - flask
-    - marshmallow >=2.0.0
-    - six >=1.9.0
-
+    - flask >=2.2
+    - marshmallow >=3.0.0
 
 test:
   imports:
@@ -51,5 +49,4 @@ about:
 extra:
   recipe-maintainers:
     - frol
-    - igortg
     - mediocretech
